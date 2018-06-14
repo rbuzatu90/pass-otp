@@ -210,6 +210,12 @@ Note that the following default values do not need to be specified in the URI:
 | period    | 30      |
 | digits    | 6       |
 
+## Migrating from Google Authenticator
+
+**Warning:** This method is provided as a means to transport your TOTP tokens to other devices, disconnected from your single factor authentication part. If you add those secrets into the same basket of eggs, you will be defeating the whole purpose of the [multi factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication) mantra. Please think it through before running this migration.
+
+If you read the warning paragraph above, [keep calm and move on with the migration](https://github.com/tadfisher/pass-otp/wiki/How-to-migrate-your-Google-Authenticator-database-to-pass-otp%3F).
+
 ## License
 
 ```
